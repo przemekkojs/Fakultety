@@ -1,26 +1,26 @@
 from __future__ import annotations
 
-import sys
+from sys import argv, exit
 
 from csv_reader import read_all_rows, row
-from filter import *
+from filter import filter_rows_value_equal, filter_rows_value_greater_equal_than, filter_rows_value_lower_equal_than
 from dictionary import LanguagePack
-from utils import get_all_values_from_column
+from utils import *
 
-from PyQt5 import QtCore, QtGui
-from PyQt5.QtWidgets import QPushButton, QLabel, QGroupBox, QTextEdit, QLineEdit, QApplication, QWidget,\
-                            QHBoxLayout, QVBoxLayout, QGridLayout, QCheckBox, QComboBox, QDesktopWidget,\
-                            QScrollArea
-from PyQt5.QtCore import *
-from PyQt5.QtGui import *
+from PyQt5.QtGui import QIcon, QCloseEvent
+from PyQt5.QtWidgets import QPushButton, QLabel, QGroupBox, QLineEdit, QApplication, QWidget,\
+                            QHBoxLayout, QVBoxLayout, QComboBox, QDesktopWidget, QScrollArea
+from PyQt5.QtCore import Qt
+
+ICON_PATH = get_resource_path('images\\icon.png')
 
 class details(QWidget):
     def __init__(self, dictionary:LanguagePack, row_to_display:row, parent:main) -> None:
         super().__init__()
     
-        self.setWindowTitle('Fakultety')
+        self.setWindowTitle(row_to_display['Course Name'])
         self.setGeometry(0, 0, 200, 350)        
-        # self.setWindowIcon(QtGui.QIcon('images/icon.png')) # TODO
+        self.setWindowIcon(QIcon(ICON_PATH))
 
         qr = self.frameGeometry()
         qr.moveCenter(QDesktopWidget().availableGeometry().center())
@@ -63,7 +63,7 @@ class main(QWidget):
 
         self.setWindowTitle("Fakultety")
         self.setGeometry(0, 0, 600, 400)
-        # self.setWindowIcon(QtGui.QIcon('images/icon.png')) # TODO
+        self.setWindowIcon(QIcon(ICON_PATH))
 
         qr = self.frameGeometry()
         qr.moveCenter(QDesktopWidget().availableGeometry().center())
@@ -459,10 +459,10 @@ class app:
     def __init__(self, dictionary:LanguagePack, path:str) -> None:
         self.all_rows = read_all_rows(path)
 
-        self.app:QApplication = QApplication(sys.argv)
+        self.app:QApplication = QApplication(argv)
         self.dictionary:LanguagePack = dictionary
         self.main:main = main(self.dictionary, self.all_rows)
 
         self.main.show()
-        sys.exit(self.app.exec())
+        exit(self.app.exec())
 
