@@ -1,0 +1,4 @@
+/src/upx
+/src/build
+/src/main.spec
+pyinstaller.bat
