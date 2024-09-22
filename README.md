@@ -1,5 +1,5 @@
 # ASYSTENT WYBORU FAKULTETÓW
-**Autor**: Przemysław Kojs
+**Autor**: Przemysław Kojs\
 **Licencja**: GNU Public License v3
 
 ## Wstęp
@@ -8,6 +8,8 @@ Motywacją do napisania programu była nieczytelność ogromnego [pliku Arkuszy 
 Program jest darmowy, open-source'owy, wystarczy pobrać i śmiało korzystać. Lista fakultetów będzie przeze mnie co rok aktualizowana, przynajmniej **dopóki tu studiuję**. No ale może uda się przekonać zarząd do uczynienia z tego narzędzia nieco bardziej oficjalnej wersji, z ilością miejsc i zapisywaniem się aktualizowanymi na żywo? To już pole do działania dla nas, studentów.
 
 Proszę jednak pamiętać, że to tylko proste narzędzie - za błędy nie odpowiadam. Proponuję użyć raczej w celu poglądowego sprawdzenia, co jest kiedy i pomocy w filtrowaniu, a potem zweryfikować to w tym wielkim excelu.
+
+Przy próbie uruchomienia prawdopodobnie pojawi się komunikat, że *ten program może być niebezpieczny*. Proszę go zignorować - po prostu nie posiadam certyfikatu (otrzymanie go to trochę za dużo zachodu na taką prostą zabawkę... chyba że zostanie nawiązana współpraca z Akademią).
 
 ## Funkcje
 - Filtrowanie po każdej kolumnie z [pliku arkuszy google](https://docs.google.com/spreadsheets/d/1IJWc_QoNPG5yj0QZwXaPlJQaUYt6Pd14ZqtDdHBY5yE/edit).
@@ -20,6 +22,9 @@ Proszę jednak pamiętać, że to tylko proste narzędzie - za błędy nie odpow
     - Dzień tygodnia
     - Godzina rozpoczęcia
     - Godzina zakończenia
+    - ...
+- Szczegóły każdego kursu
+- Dynamiczny (tzn. reagujący na zmiany) interfejs
 
 ## Jak korzystać
 Starałem się uczynić ten program tak intuicyjnym, jak tylko było to możliwe - żeby nie robić czegoś, co będzie jeszcze mniej pomocne niż [plik arkuszy google](https://docs.google.com/spreadsheets/d/1IJWc_QoNPG5yj0QZwXaPlJQaUYt6Pd14ZqtDdHBY5yE/edit). Wszystko powinno być intuicyjne:
