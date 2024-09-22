@@ -9,3 +9,15 @@ PL:
 EN:
 - All utilities described in README.md
 - Polish language version
+
+==============
+== v. 1.0.1 ==
+==============
+
+PL:
+- Poprawiono problem ze ścieżkami
+- Powstał działający plik .exe
+
+EN:
+- Paths issues are solved
+- .exe file is now avaiable
