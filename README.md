@@ -3,7 +3,7 @@
 **Licencja**: GNU Public License v3
 
 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻\
-👉🏻👉🏻👉🏻 [POBIERZ](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/src/dist/Fakultety.exe) 👈🏻👈🏻👈🏻\
+👉🏻👉🏻👉🏻 [POBIERZ](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/desktop/src/dist/Fakultety.exe) 👈🏻👈🏻👈🏻\
 ☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻
 
 ## Wstęp
