@@ -3,7 +3,7 @@ from __future__ import annotations
 from sys import argv, exit
 
 from csv_reader import read_all_rows, row
-from filter import filter_rows_value_equal, filter_rows_value_greater_equal_than, filter_rows_value_lower_equal_than
+from filter import filter_rows_value_equal, filter_rows_value_greater_equal_than, filter_rows_value_lower_equal_than, filter_rows_value_contains
 from dictionary import LanguagePack
 from utils import *
 
@@ -392,9 +392,7 @@ class main(QWidget):
                 child.deleteLater()
 
         eq_values_dict: dict[str, str] = {
-            'Course Name': self.course_name_input.text().strip(),
             'Suggested Learning Stage': self.suggested_learning_stage_dropdown.currentText(),
-            'Teacher': self.teacher_name_input.text().strip(),
             'Place Limit': self.place_limit_input.text().strip(),
             'Course Type': self.course_type_dropdown.currentText(),
             'Test Type': self.test_type_dropdown.currentText(),
@@ -408,9 +406,18 @@ class main(QWidget):
             'Room': self.room_input.text().strip()
         }
 
+        contains_values_dict: dict[str, str] = {
+            'Course Name': self.course_name_input.text().strip(),
+            'Teacher': self.teacher_name_input.text().strip()
+        }
+
         for k in eq_values_dict.keys():
             if eq_values_dict[k] != "":
                 matching_rows = filter_rows_value_equal(matching_rows, k, eq_values_dict[k])
+
+        for k in contains_values_dict.keys():
+            if contains_values_dict[k] != "":
+                matching_rows = filter_rows_value_contains(matching_rows, k, contains_values_dict[k])
 
         if self.start_hour_input.text().strip() != "":
             matching_rows = filter_rows_value_greater_equal_than(matching_rows, 'Start Hour', self.start_hour_input.text().strip())

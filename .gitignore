@@ -1,4 +1,5 @@
 /src/upx
 /src/build
-/src/main.spec
 pyinstaller.bat
+*.spec
+/src/__pycache__

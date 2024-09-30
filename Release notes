@@ -1,6 +1,7 @@
 ============
 == v. 1.0 ==
 ============
+22.09.2024
 
 PL:
 - Wszystkie funkcje opisane w pliku README.md
@@ -13,6 +14,7 @@ EN:
 ==============
 == v. 1.0.1 ==
 ==============
+22.09.2024
 
 PL:
 - Poprawiono problem ze ścieżkami
@@ -21,3 +23,16 @@ PL:
 EN:
 - Paths issues are solved
 - .exe file is now avaiable
+
+==============
+== v. 1.0.2 ==
+==============
+30.09.2024
+
+PL:
+- Poprawa filtrowania po nazwie kursu oraz nazwie prowadzącego
+- Zmiana pliku z fakultetami na aktualny (2024/2025)
+
+EN:
+- Update of filtering by course name and teacher name
+- Changed file to valid one (2024/2025)

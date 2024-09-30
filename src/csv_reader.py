@@ -66,7 +66,7 @@ def read_one_row(content:str) -> row:
     result:row
 
     if len(splitted_content) == 15:
-        add_info = splitted_content[3]
+        add_info = splitted_content[14]
     else:
         add_info = ""
 
@@ -75,12 +75,18 @@ def read_one_row(content:str) -> row:
         
         if len(clustered_info_splitted) < 3:
             add_pass_info = clustered_info_splitted[0]
-        else:
+        else:            
+            weekday = clustered_info_splitted[0]
             time = clustered_info_splitted[1].split('-')
-            weekday = clustered_info_splitted[0]            
-            start_hour = time[0]
-            end_hour = time[1]
             room = clustered_info_splitted[2]
+
+            if len(time) != 2:
+                start_hour = '???'
+                end_hour = '???'
+            else:
+                start_hour = time[0].replace('.', ':')
+                end_hour = time[1].replace('.', ':')
+            
 
             if len(clustered_info_splitted) == 3:                
                 add_pass_info = ""
