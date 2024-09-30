@@ -1,0 +1,44 @@
+QWidget {
+    background-color: #222222;    
+    color: #dddddd;
+    font-size: 10pt;
+    font-family: 'Consolas';
+    border: 1px solid #111111;
+}
+
+QPushButton {
+    border: 1px solid #000000;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+QPushButton:hover {
+    background-color: #444444;    
+}
+
+QPushButton:pressed {
+    background-color: #000000;    
+}
+
+QLineEdit {
+    border: 1px solid #000000;
+    padding: 2px;
+    margin: 2px;
+}
+
+QLineEdit:focus {
+    border: 1px solid #dddddd;
+}
+
+QComboBox {
+    border: 1px solid #000000;
+    padding: 2px;
+}
+
+QLabel {
+    border: none;
+}
+
+QLabel:hover {
+    color: red;
+}

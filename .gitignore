@@ -1,5 +1,6 @@
-/src/upx
-/src/build
+/desktop/src/__pycache__
+/desktop/src/upx
+/desktop/src/build
 pyinstaller.bat
 *.spec
-/src/__pycache__
+/desktop/src/resources/test.csv

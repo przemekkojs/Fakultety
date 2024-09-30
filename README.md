@@ -44,6 +44,6 @@ Możliwe, że część rzeczy nie wyświetla się jak powinno - nazwiska i nazwy
 **Język programowania**: Python 3.11
 **Wersje językowe**: PL (od v.1.0)
 
-Kod zawiera dokumentację **tylko w języku angielskim** (od wersji v.1.1).
+Kod zawiera dokumentację **tylko w języku angielskim**.
 
 **W przypadku chęci rozwoju programu (wersje językowe, pomysły na funkcje, kolaboracja), serdecznie zapraszam do kontaktu.**
