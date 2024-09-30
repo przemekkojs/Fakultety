@@ -2,7 +2,9 @@
 **Autor**: Przemysław Kojs\
 **Licencja**: GNU Public License v3
 
-[POBIERZ](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/src/dist/Fakultety.exe)
+👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻\
+👉🏻👉🏻👉🏻 [POBIERZ](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/src/dist/Fakultety.exe) 👈🏻👈🏻👈🏻\
+☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻
 
 ## Wstęp
 Motywacją do napisania programu była nieczytelność ogromnego [pliku Arkuszy Google ze wszystkimi fakultetami](https://docs.google.com/spreadsheets/d/1WNC7SpdYdrO9oj3SaTiqJYlVr9a5uHMvBgeVfWYMPaY). Brak sortowania, dużo kolumn, wiele informacji w jednej kolumnie itp. to tylko niektóre z mankamentów. Dużo łatwiej byłoby się połapać, gdyby istniała możliwość filtrowania po prowadzącym, sali, godzinie rozpoczęcia i zakończenia... byłoby, a nawet jest.
