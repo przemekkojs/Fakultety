@@ -1,9 +1,10 @@
 # ASYSTENT WYBORU FAKULTETÓW
 **Autor**: Przemysław Kojs\
-**Licencja**: GNU Public License v3
+**Licencja**: GNU Public License v3\
+**Ostatnia stabilna wersja**: v.1.1.0
 
 👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻👇🏻\
-👉🏻👉🏻👉🏻 [POBIERZ](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/desktop/src/dist/Fakultety.exe) 👈🏻👈🏻👈🏻\
+👉🏻👉🏻👉🏻 [DESKTOP](https://raw.githubusercontent.com/przemekkojs/Fakultety/main/desktop/src/dist/Fakultety.exe) 👈🏻👈🏻👈🏻\
 ☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻☝🏻
 
 ## Wstęp
@@ -41,9 +42,17 @@ Możliwe, że część rzeczy nie wyświetla się jak powinno - nazwiska i nazwy
 Życzę przyjemnego korzystania.
 
 ## Dodatkowe informacje dla zainteresowanych
-**Język programowania**: Python 3.11
-**Wersje językowe**: PL (od v.1.0)
+### Desktop
+**Język programowania**: Python 3.11\
+**Wersje językowe**: PL (od v.1.0)\
+Możliwe jest, że kod zawiera dokumentację **tylko w języku angielskim** - planowane jest jej dodanie przy okazji którejś wersji.
 
-Kod zawiera dokumentację **tylko w języku angielskim**.
+### Mobile
+Na ten moment brak
 
-**W przypadku chęci rozwoju programu (wersje językowe, pomysły na funkcje, kolaboracja), serdecznie zapraszam do kontaktu.**
+### Web
+**Języki programowania**: HTML, CSS, JS\
+**Wersje językowe**: PL (w planach)\
+Możliwe jest, że kod zawiera dokumentację **tylko w języku angielskim** - planowane jest jej dodanie przy okazji którejś wersji.
+
+**W przypadku chęci rozwoju programu (wersje językowe, pomysły na funkcje, kolaboracja), serdecznie zapraszam do kontaktu.** Wszelkie szczegóły są możliwe do znalezienia w plikach *CHANGELOG.md* oraz *RELEASE NOTES.md*.
