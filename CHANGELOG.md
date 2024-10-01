@@ -12,3 +12,6 @@ This version focused on upgrading filtering logic. Also, the file was changed to
 
 **[1.1.0] - 01.10.2024**\
 This version is a major upgrade - I'm planning on developing also a web and mobile app. Also, styling was added. It'll be changed to match [The Karol Lipiński Academy of Music Wroclaw](https://amuz.wroc.pl/) website.
+
+**[1.1.1] - 01.10.2024**\
+This version makes ui coherent with the [website](https://amuz.wroc.pl/).

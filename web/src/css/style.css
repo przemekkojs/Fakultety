@@ -1,0 +1,25 @@
+html {
+    color: #242424;
+    background-color: #FFFFFF;
+    font-family: 'Segoe UI';
+    font-size: 10pt;        
+}
+
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+.button {
+    background-color: #00235E;
+    color: #FFFFFF;
+}
+
+.button:hover {
+    background-color: #003183;
+}
+
+.button:click {
+    background-color: #000000;
+}

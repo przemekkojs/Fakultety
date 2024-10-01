@@ -49,5 +49,9 @@ This version is a major upgrade - I'm planning on developing also a web and mobi
 - Added menu with an option to load a database
 - Added *RELEASE NOTES.md* and *CHANGELOG.md* files, for better clarity.
 
-## [1.1.1] - COMING SOON
+## [1.1.1] - 01.10.2024
 This version makes ui coherent with the [website](https://amuz.wroc.pl/).
+
+## New features
+- UI coherent with the website
+- Web folders structure

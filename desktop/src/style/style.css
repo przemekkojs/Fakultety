@@ -1,19 +1,21 @@
 QWidget {
-    background-color: #222222;    
-    color: #dddddd;
+    background-color: #FFFFFF;    
+    color: #242424;
     font-size: 10pt;
-    font-family: 'Consolas';
-    border: 1px solid #111111;
+    font-family: 'Segoe UI';
+    border: 1px solid #EEEEEE;
 }
 
 QPushButton {
-    border: 1px solid #000000;
+    border: 1px solid #003183;
+    background-color: #00235E;
+    color: #FFFFFF;
     padding: 5px;
     border-radius: 10px;
 }
 
 QPushButton:hover {
-    background-color: #444444;    
+    background-color: #003183;    
 }
 
 QPushButton:pressed {
@@ -21,17 +23,17 @@ QPushButton:pressed {
 }
 
 QLineEdit {
-    border: 1px solid #000000;
+    border: 1px solid #00235E;
     padding: 2px;
     margin: 2px;
 }
 
 QLineEdit:focus {
-    border: 1px solid #dddddd;
+    border: 1px solid #003183;
 }
 
 QComboBox {
-    border: 1px solid #000000;
+    border: 1px solid #00235E;
     padding: 2px;
 }
 
@@ -40,5 +42,5 @@ QLabel {
 }
 
 QLabel:hover {
-    color: red;
+    color: #003183;
 }
