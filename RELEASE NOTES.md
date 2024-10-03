@@ -43,7 +43,7 @@ This version focused on upgrading filtering logic. Also, the file was changed to
 ### Summary
 This version is a major upgrade - I'm planning on developing also a web and mobile app. Also, styling was added. It'll be changed to match [The Karol Lipiński Academy of Music Wroclaw](https://amuz.wroc.pl/) website.
 
-## New features
+### New features
 - Added directories for future app versions - mobile and web
 - Basic styling (dark mode)
 - Added menu with an option to load a database
@@ -52,6 +52,16 @@ This version is a major upgrade - I'm planning on developing also a web and mobi
 ## [1.1.1] - 01.10.2024
 This version makes ui coherent with the [website](https://amuz.wroc.pl/).
 
-## New features
-- UI coherent with the website
+### New features
+- UI coherent with the Academy website
 - Web folders structure
+
+## [1.2] - 03.10.2024
+This version created fully working website, which behaves just like the desktop version.
+
+### New features
+- Minor corrections in the desktop app
+- Fully working web app
+- Deployment scripts
+- Setting up GitHub pages
+- Matching results count

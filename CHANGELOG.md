@@ -15,3 +15,6 @@ This version is a major upgrade - I'm planning on developing also a web and mobi
 
 **[1.1.1] - 01.10.2024**\
 This version makes ui coherent with the [website](https://amuz.wroc.pl/).
+
+**[1.2] - 03.10.2024**\
+This version created fully working website, which behaves just like the desktop version.
