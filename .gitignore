@@ -1,8 +1,0 @@
-/desktop/src/__pycache__
-/desktop/src/upx
-/desktop/src/build
-/desktop/src/dist
-*.exe
-pyinstaller.bat
-*.spec
-/desktop/src/resources/test.csv

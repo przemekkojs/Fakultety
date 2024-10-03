@@ -1,5 +1,0 @@
-Main blue: #00235E
-Hover blue: #003183
-Border gray: #EEEEEE
-Background: #FFFFFF
-Text: #242424
