@@ -1,19 +1,59 @@
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
 html {
     color: #242424;
     background-color: #FFFFFF;
     font-family: 'Segoe UI';
-    font-size: 10pt;        
+    font-size: 10px;       
+    height: 100%;
 }
 
 body {
     margin-left: 10%;
     margin-right: 10%;
     text-align: center;
+    height: 100%;
+}
+
+table {
+    text-align: left;
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+tr, td, th {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.logo {
+    width: 330px;
+    height: 50px;
 }
 
 .button {
     background-color: #00235E;
     color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px, 5px;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -22,4 +62,153 @@ body {
 
 .button:click {
     background-color: #000000;
+}
+
+.menu {
+    font-family: inherit;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu-item {
+    position: relative;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid #dddddd;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    color: #00235E;
+    text-transform: uppercase;
+}
+
+.menu-item:hover {
+    background-color: #EEEEEE;
+}
+
+.menu-item:not(:last-child) {
+    border-right: none;
+}
+
+.submenu {
+    list-style-type: none;
+    margin-top: 1px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FFFFFF;
+    padding: 0;
+    z-index: 10;
+    text-transform: capitalize;
+    width: 80%;
+    margin-left: 20%;
+    color: #242424;
+    font-weight: 400;
+}
+
+.submenu li {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.submenu a {
+    text-decoration: none;
+    color: #242424;
+}
+
+.submenu li:hover {
+    background-color: #EEEEEE;   
+}
+
+.menu-item:hover .submenu {
+    display: block;
+}
+
+#footer {
+    width: 100%;
+    background-color: #00235E;
+    color: #FFFFFF;
+    bottom: 0;
+    position: absolute;
+    padding: 10px;
+}
+
+#header {
+    text-align: left;
+    background-color: #FFFFFF;
+    color: #242424;
+}
+
+#container {
+    position: relative;
+    height: auto;
+    min-height: 100%;
+}
+
+#content {
+    padding: 1em 1em 5em;
+}
+
+#content p {
+    text-align: left;
+}
+
+input[type=text] {
+    width: 150px;
+    grid-column: 2 / 3;
+}
+
+select {
+    width: 156px;
+    grid-column: 2 / 3;
+}
+
+label {
+    width: 200px;
+    grid-column: 1 / 2;
+}
+
+button {
+    background-color: #00235E;
+    color: #FFFFFF;
+    width: 150px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #003183;
+}
+
+.left {
+    grid-column: 1 / 2;
+}
+
+.right {
+    grid-column: 2 / 3;
+}
+
+.grid-form {
+    display: grid;
+    grid-template-columns: 200px 150px;
+    width: 100%;
+    gap: 0px;
+}
+
+.form-group {
+    display: contents;
+    text-align: left;
+}
+
+#static {
+    margin: 0 auto;
+    display: inline-block;
 }

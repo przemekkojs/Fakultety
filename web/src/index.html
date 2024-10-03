@@ -10,17 +10,97 @@
         <link rel="stylesheet" href="css/mobile.css">    
     </head>
     <body>
-        <main>
-            <header id="header">
+        <div id="container">
+            <div id="header">
                 
-            </header>
-            <article>
+            </div>
+            <div id="static">
                 <h1>Fakultety AMKL</h1>
-            </article>
-            <footer id="footer">
 
-            </footer>
-        </main>
+                <form id="main-form" class="grid-form">
+                    <div class="form-group">
+                        <label for="Course Name">Nazwa kursu</label>
+                        <input type="text" name="Course Name" id="Course Name"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Teacher">Prowadzący</label>
+                        <input type="text" name="Teacher" id="Teacher"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Suggested Learning Stage">Sugerowany etap kształcenia</label>
+                        <select name="Suggested Learning Stage" id="Suggested Learning Stage"></select><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Faculty">Wydział</label>
+                        <select name="Faculty" id="Faculty"></select><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Faculty Name">Nazwa wydziału</label>
+                        <select name="Faculty Name" id="Faculty Name"></select><br/>
+                    </div>    
+
+                    <div class="form-group">
+                        <label for="Hours Winter">Godziny sem. zimowy</label>
+                        <input type="text" name="Hours Winter" id="Hours Winter"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Hours Summer">Godziny sem. letni</label>
+                        <input type="text" name="Hours Summer" id="Hours Summer"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ECTS Winter">ECTS sem. zimowy</label>
+                        <input type="text" name="ECTS Winter" id="ECTS Winter" maxlength="2"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ECTS Summer">ECTS sem. letni</label>
+                        <input type="text" name="ECTS Summer" id="ECTS Summer" maxlength="2"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ECTS Combined">ECTS łącznie</label>
+                        <input type="text" name="ECTS Combined" id="ECTS Combined" maxlength="2"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Start Hour">Godzina rozpoczęcia</label>
+                        <input type="text" name="Start Hour" id="Start Hour" maxlength="5"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="End Hour">Godzina zakończenia</label>
+                        <input type="text" type="End Hour" id="End Hour" maxlength="5"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Weekday">Dzień tygodnia</label>
+                        <select name="Weekday" id="Weekday"></select><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Room">Sala</label>
+                        <input type="Text" name="Room" id="Room"><br/>
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" class="left" onclick="filter()">Filtruj</button>
+                        <button type="button" class="right" onclick="clearFilters()">Wyczyść filtry</button>
+                    </div>          
+                </form>      
+            </div>
+            <div id="content">
+                
+            </div>
+            <div id="footer">
+
+            </div>
+        </div>
 
         <script src="js/header.js"></script>
         <script src="js/footer.js"></script>
