@@ -31,6 +31,7 @@ if (cookieRow) {
             <b>Nazwa kursu:</b> ${r['Course Name']}<br/>
             <b>Sugerowany etap kształcenia:</b> ${r['Suggested Learning Stage']}<br/>
             <b>Prowadzący:</b> ${r['Teacher']}<br/>
+            <b>Sala:</b> ${r['Room'].replace('sala', '').trim()}</br>
             <b>Limit miejsc:</b> ${r['Place Limit']}<br/>
             <b>Rodzaj kursu:</b> ${r['Course Type']}<br/>
             <b>Typ zaliczenia:</b> ${r['Test Type']}<br/>
