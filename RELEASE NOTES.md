@@ -50,6 +50,8 @@ This version is a major upgrade - I'm planning on developing also a web and mobi
 - Added *RELEASE NOTES.md* and *CHANGELOG.md* files, for better clarity.
 
 ## [1.1.1] - 01.10.2024
+
+### Summary
 This version makes ui coherent with the [website](https://amuz.wroc.pl/).
 
 ### New features
@@ -57,6 +59,8 @@ This version makes ui coherent with the [website](https://amuz.wroc.pl/).
 - Web folders structure
 
 ## [1.2] - 03.10.2024
+
+### Summary
 This version created fully working website, which behaves just like the desktop version.
 
 ### New features
@@ -65,3 +69,12 @@ This version created fully working website, which behaves just like the desktop 
 - Deployment scripts
 - Setting up GitHub pages
 - Matching results count
+
+**[1.2.1] - 04.10.2024**
+
+### Summary
+This version fixes several minor bugs, like addidional pass info not displaying correctly in the web version. Also, styling for mobile devices was added.
+
+### New features
+- Fixed bugs
+- Filtering is now not-case-sensitive - characters do not neet to be capitalized correctly for filtering to work

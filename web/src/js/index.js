@@ -195,7 +195,7 @@ function filterContains(list, column, value) {
     let resultList = [];
 
     list.forEach(r => {
-        if (r.attributes[column].includes(value)) {
+        if (r.attributes[column].toLowerCase().includes(value.toLowerCase())) {
             resultList.push(r);
         }
     });
@@ -207,7 +207,7 @@ function filterEqual(list, column, value) {
     let resultList = [];
 
     list.forEach(r => {
-        if (r.attributes[column] === value) {
+        if (r.attributes[column].toLowerCase() === value.toLowerCase()) {
             resultList.push(r);
         }
     });
@@ -219,7 +219,7 @@ function filterGreaterEqualThan(list, column, value) {
     let resultList = [];
 
     list.forEach(r => {
-        if (r.attributes[column] >= value) {
+        if (r.attributes[column].toLowerCase() >= value.toLowerCase()) {
             resultList.push(r);
         }
     });
@@ -231,7 +231,7 @@ function filterLowerEqualThan(list, column, value) {
     let resultList = [];
 
     list.forEach(r => {
-        if (r.attributes[column] <= value) {
+        if (r.attributes[column].toLowerCase() <= value.toLowerCase()) {
             resultList.push(r);
         }
     });
@@ -273,6 +273,8 @@ function createTable(rows) {
     `;
 
     rows.forEach(r => {
+        console.log(r);
+
         content += `
                     <tr>
                         <td>${r.attributes["Course Name"]}</td>

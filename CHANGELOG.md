@@ -18,3 +18,6 @@ This version makes ui coherent with the [website](https://amuz.wroc.pl/).
 
 **[1.2] - 03.10.2024**\
 This version created fully working website, which behaves just like the desktop version.
+
+**[1.2.1] - 04.10.2024**\
+This version fixes several minor bugs, like addidional pass info not displaying correctly in the web version.
