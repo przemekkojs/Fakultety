@@ -12,6 +12,19 @@ let content = document.getElementById('content').innerHTML;
 
 if (cookieRow) {
     let r = JSON.parse(decodeURIComponent(cookieRow));
+
+    console.log(r);
+
+    let addInfo = r['Additional Info'];
+    let addPassInfo = r['Additional Pass Info'];
+
+    if (!addInfo) {
+        addInfo = "";
+    }
+
+    if (!addPassInfo) {
+        addPassInfo = "";
+    }
     
     content += `
         <p>
@@ -31,8 +44,8 @@ if (cookieRow) {
             <b>Dzień tygodnia:</b> ${r['Weekday']}<br/>
             <b>Godzina rozpoczęcia:</b> ${r['Start Hour']}<br/>
             <b>Godzina zakończenia:</b> ${r['End Hour']}<br/>
-            <b>Dodatkowe informacje:</b> ${r['Add Info']}<br/>
-            <b>Dodatkowe informacje o zaliczeniu:</b> ${r['Add Pass Info']}<br/>
+            <b>Dodatkowe informacje:</b> ${addInfo}<br/>
+            <b>Dodatkowe informacje o zaliczeniu:</b> ${addPassInfo}<br/>
         </p>        
     `;
 }
