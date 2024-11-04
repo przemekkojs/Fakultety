@@ -78,3 +78,16 @@ This version fixes several minor bugs, like addidional pass info not displaying 
 ### New features
 - Fixed bugs
 - Filtering is now not-case-sensitive - characters do not neet to be capitalized correctly for filtering to work
+
+## [1.3.0] - 04.11.2024 - preview
+
+### Summary
+This will be a major leap - Academy agreed to collaborate and prepare files with a new format. With this being said, new .csv file format is coming and making loading multiple files will now be possible.
+
+Additional new ideas include:
+- Sorting by fields (probably 1.4)
+- Filtering fields to display in table (probably 1.5)
+
+So, I want to say *thank You* to Wroclaw Karol Lipiński' Academy of Music for everything and - from now on - new part of work begun.
+
+I'm also thinking about switching to TypeScript, for better scaling, code understanding and support for possible collaborators.
